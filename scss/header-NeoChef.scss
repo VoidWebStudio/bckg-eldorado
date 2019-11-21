@@ -1,0 +1,148 @@
+@import "fonts";
+html {
+  height: 100%;
+  width: 100%;
+  font-size:0;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-NeoChef{
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  .contained-header-NeoChef{
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: black;
+  }
+  .header-NeoChef{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .header-title-NeoChef{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 74px;
+      padding-bottom: 70px;
+      h1{
+          font-size: 60px;
+          font-family: "LG Smart",sans-serif!important;
+          color: rgb(255, 255, 255);
+          font-weight: 400;
+          line-height: 0.625;
+          text-align: center;
+          padding-bottom: 65px;
+        br{
+          display: none;
+        }
+      }
+      p{
+        opacity: 0.7;
+        color: #ffffff;
+        font-family: "LG Smart Light",sans-serif!important;
+        font-size: 30px;
+        font-weight: 200;
+        line-height: 36px;
+        text-align: center;
+      }
+    }
+    .header-microwave-NeoChef{
+      margin-bottom: -10%;
+      .pad-microwave{
+        display: none;
+      }
+      .mob-microwave{
+        display: none;
+      }
+    }
+  }
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container-NeoChef{
+
+    .header-NeoChef{
+      padding-left: 30px;
+      padding-right: 30px;
+      .header-title-NeoChef{
+        padding-top: 50px;
+        h1{
+          line-height: 45px;
+          padding: 0 0;
+        }
+        p{
+          padding-top: 47px;
+        }
+      }
+      .header-microwave-NeoChef{
+        margin-bottom: -20%;
+        .desk-microwave{
+          display: none;
+        }
+        .mob-microwave{
+          display: none;
+        }
+        .pad-microwave{
+          display: block;
+        }
+      }
+    }
+
+  }
+
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .container-NeoChef{
+    .contained-header-NeoChef{
+      padding-left: 5px;
+      padding-right: 5px;
+      .header-NeoChef{
+        padding-left: 30px;
+        padding-right: 30px;
+        .header-title-NeoChef{
+          padding-top: 50px;
+          h1{
+            padding-bottom: 0;
+            font-size: 23px;
+            line-height: 1.2;
+          }
+          p{
+            font-weight: 300;
+            line-height: 21px;
+            font-size: 16px;
+            padding-top: 16px;
+          }
+        }
+        .header-microwave-NeoChef{
+          margin-bottom: -15%;
+          .desk-microwave{
+            display: none;
+          }
+          .pad-microwave{
+            display: none;
+          }
+          .mob-microwave{
+            display: block;
+          }
+        }
+      }
+    }
+
+  }
+
+}
