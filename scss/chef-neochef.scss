@@ -3,6 +3,7 @@
   height: auto;
   padding: 140px 120px 80px 120px;
   width: 100%;
+  background-color: #ffffff;
 
   .main-chef-NeoChef{
     display: flex;
@@ -12,11 +13,13 @@
     max-width: 1200px;
     margin: 0 auto;
     height: auto;
+    width: 100%;
     .title-chef-NeoChef{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      width: 100%;
       p{
         font-size: 14px;
         color: #6b6b6b;
@@ -24,27 +27,32 @@
         font-weight: 300;
         line-height: 16px;
         text-align: center;
+        width: 100%;
       }
     }
     .bio-chef-NeoChef{
       display: flex;
       padding-top: 71px;
       justify-content: space-between;
+      width: 100%;
       .info-chef-NeoChef{
         display: flex;
         flex-basis: 64%;
         img{
           max-height: 200px;
+          height: 100%;
         }
         .description-chef-NeoChef{
           display: flex;
           flex-direction: column;
           padding-left: 44px;
           padding-top: 76px;
+          width: 100%;
           .description-chef-NeoChef-title{
             display: flex;
             flex-direction: column;
             padding-bottom: 22px;
+            width: 100%;
             h1{
               font-size: 24px;
               font-family: "LG Smart SemiBold",sans-serif!important;;
@@ -61,16 +69,19 @@
               line-height: 25px;
               text-align: left;
               padding-top: 16px;
+              width: 100%;
             }
           }
           .description-chef-NeoChef-story{
             padding-top: 21px;
+            width: 100%;
             p{
                 font-size: 18px;
                 font-family: 'LG Smart Light',sans-serif!important;;
                 color: rgba(51, 51, 51, 0.8);
                 line-height: 1.389;
                 text-align: left;
+              width: 100%;
             }
           }
           hr{

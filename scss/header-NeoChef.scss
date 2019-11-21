@@ -16,6 +16,7 @@ html {
   height: auto;
   margin: 0 auto;
   overflow: hidden;
+  background-color: black;
   .contained-header-NeoChef{
     width: 100%;
     padding-left: 80px;
@@ -61,6 +62,8 @@ html {
     }
     .header-microwave-NeoChef{
       margin-bottom: -10%;
+      position:relative;
+      z-index: 1;
       .pad-microwave{
         display: none;
       }

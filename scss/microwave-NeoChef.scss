@@ -21,6 +21,7 @@
       align-items: center;
       flex-direction: column;
       text-align: center;
+      width: 100%;
       h1{
         display: flex;
         justify-content: center;
@@ -40,6 +41,7 @@
         color: #c9c9c9;
         font-size: 24px;
         opacity: 0.8;
+        width: 100%;
 
       }
       sup{
@@ -58,6 +60,7 @@
       justify-content: center;
       align-items: center;
       padding-bottom: 40px;
+      width: 100%;
       p{
         color: #6b6b6b;
         font-family: 'LG Smart',sans-serif!important;
@@ -65,6 +68,7 @@
         font-weight: 300;
         line-height: 16px;
         text-align: center;
+        width: 100%;
         sup{
           font-size:8px;
         }
