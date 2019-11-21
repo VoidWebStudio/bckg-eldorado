@@ -594,6 +594,8 @@
           -webkit-align-items: center;
           align-items: center;
           width: 25%; }
+    .container-chicken-NeoChef .main-chicken-NeoChef .logo-chicken-mob {
+      display: none; }
     .container-chicken-NeoChef .main-chicken-NeoChef .logo-chicken-pad {
       display: block;
       padding-top: 37px; }
@@ -732,10 +734,16 @@
           -webkit-align-items: center;
           align-items: center;
           width: 38%; }
+    .container-chicken-NeoChef .main-chicken-NeoChef .logo-chicken-mob {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      padding-top: 92px;
+      padding-bottom: 34px; }
     .container-chicken-NeoChef .main-chicken-NeoChef .logo-chicken-lg {
       display: none; }
     .container-chicken-NeoChef .main-chicken-NeoChef .bottom-text-NeoChef {
-      padding-top: 176px; }
+      padding-top: 0; }
       .container-chicken-NeoChef .main-chicken-NeoChef .bottom-text-NeoChef p {
         font-size: 9px; } }
 
